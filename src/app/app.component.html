@@ -1,1 +1,7 @@
-  <h1>{{title}}</h1> 
+<h1>{{title}}</h1> 
+<a [routerLink]="['']">Home </a> |
+<a [routerLink]="['products']">Product List </a> |
+<a [routerLink]="['edit']">Edit Product </a>
+<a [routerLink]="['create']">Product Creation </a>
+
+<router-outlet></router-outlet>
